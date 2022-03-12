@@ -54,5 +54,13 @@
             &trans        &trans       &trans                       			  &trans             &none         &trans
 			>;
 		};
+     		adjust {
+           bindings = <
+            &kp BSLH      &trans     &bt BT_CLR    &trans        &trans                   &trans         &trans       &trans      &trans      &kp LBKT
+            &trans        &kp MINUS  &kp QMARK     &kp AMPS      &kp LA(LS(EQUAL))        &kp LA(EQUAL)  &kp CARET    &kp QMARK   &kp MINUS   &kp APOS
+            &kp LSHFT     &trans     &trans        &trans        &trans    		  &trans         &trans       &trans      &trans      &kp RBKT
+                                     &trans        &trans        &trans                   &trans         &trans       &trans
+          		>;
+		};
         };
 };
