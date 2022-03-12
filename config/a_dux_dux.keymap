@@ -29,34 +29,33 @@
 
         default {
            bindings = <
-            &kp Q         &kp W      &kp E         &kp R         &kp T                             &kp Y       &kp U        &kp I       &kp O       &kp P
-            &kp A         &kp S      &kp D         &lt ADJ F     &kp G                             &kp H       &lt ADJ J    &kp K       &kp L       &kp SEMI
-            &mt LSHFT Z   &mt LALT X &kp C         &kp V         &kp B           		   &kp N       &kp M        &kp COMMA   &kp DOT     &mt RSHFT FSLH
-                                     &lt NUM ESC   &mt LGUI DEL &lt NAV SPACE                      &lt SYM BSPC &lt SYM RET &mt RCTRL TAB
+            &kp Q         &kp W      &kp E         &kp R         &kp T                             &kp Y        &kp U        &kp I       &kp O       &kp P
+            &kp A         &kp S      &kp D         &lt ADJ F     &kp G                             &kp H        &lt ADJ J    &kp K       &kp L       &kp SEMI
+            &mt LSHFT Z   &mt LALT X &kp C         &kp V         &kp B           		           &kp N        &kp M        &kp COMMA   &kp DOT     &mt RSHFT FSLH
+                                     &lt NUM ESC   &mt LGUI DEL  &lt NAV SPACE                     &lt SYM BSPC &lt SYM RET  &mt RCTRL TAB
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
         navigation {
            bindings = <
             &none      &kp LG(LBKT)   &kp UP            &kp LG(RBKT)     &kp LC(G)                &trans     &trans    &trans    &trans   &none
             &none      &kp LEFT       &kp DOWN          &kp RIGHT        &kp LA(LG(G))            &trans     &trans    &trans    &trans   &trans
-            &kp LSHFT  &none          &kp LA(LG(C))     &kp LA(LG(V))    &none      		  &none      &trans    &none     &none    &none
+            &kp LSHFT  &none          &kp LA(LG(C))     &kp LA(LG(V))    &none      	    	  &none      &trans    &none     &none    &none
                                       &trans            &trans           &trans                   &trans     &none     &trans
             >;
         };
         numpad {
            bindings = <
-            &kp KP_DIVIDE   &kp N7     &kp N8        &kp N9       &kp KP_MINUS                    &out OUT_USB &out OUT_BLE &ext_power EP_OFF     &ext_power EP_ON       &none
-            &kp KP_MULTIPLY &kp N4     &kp N5        &kp N6       &kp KP_PLUS                     &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2      &bt BT_SEL 3       &bt BT_SEL 4
-            &kp N0          &kp N1     &kp N2        &kp N3       &kp KP_DOT  			  &none &bt BT_CLR   &none      &none       &none
-                                       &trans        &trans       &trans                          &trans             &none      &trans
+            &kp KP_DIVIDE   &kp N7     &kp N8        &kp N9       &kp KP_MINUS                    &out OUT_USB   &out OUT_BLE  &ext_power EP_OFF     &ext_power EP_ON   &none
+            &kp KP_MULTIPLY &kp N4     &kp N5        &kp N6       &kp KP_PLUS                     &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2          &bt BT_SEL 3       &bt BT_SEL 4
+            &kp N0          &kp N1     &kp N2        &kp N3       &kp KP_DOT  		        	  &none.         &bt BT_CLR    &none                 &none              &none
+                                       &trans        &trans       &trans                          &trans         &none         &trans
            >;
         };
         symbols {
            bindings = <
             &kp EXCL      &kp AT     &kp HASH    &kp DLLR   &kp PRCNT                       &kp CARET      &kp AMPS     &kp STAR    &kp LPAR    &kp RPAR
             &kp F1        &kp F2     &kp F3      &kp F4     &kp F5                          &kp F6         &kp F7       &kp F8      &kp F9      &kp F10
-            &kp LSHFT     &trans     &trans      &trans     &trans  			    &trans         &kp EQUAL    &kp CARET   &kp AMPS    &kp QMARK
+            &kp LSHFT     &trans     &trans      &trans     &trans  			            &trans         &kp EQUAL    &kp CARET   &kp AMPS    &kp QMARK
                                      &trans      &trans     &trans                          &trans         &trans       &trans
             >;
         };
@@ -64,7 +63,7 @@
            bindings = <
             &kp BSLH      &trans     &bt BT_CLR    &trans        &trans                            &trans         &trans       &trans      &trans      &kp LBKT
             &trans        &kp MINUS  &kp QMARK     &kp AMPS      &kp LA(LS(EQUAL))                 &kp LA(EQUAL)  &kp CARET    &kp QMARK   &kp MINUS   &kp APOS
-            &kp LSHFT     &trans     &trans        &trans        &trans    			   &trans         &trans       &trans      &trans      &kp RBKT
+            &kp LSHFT     &trans     &trans        &trans        &trans    			               &trans         &trans       &trans      &trans      &kp RBKT
                                      &trans        &trans        &trans                            &trans         &trans       &trans
             >;
         };
